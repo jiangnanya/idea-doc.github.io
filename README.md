@@ -15,7 +15,7 @@ yarn docs:build
 ```
 
 ## License
-[Version 2.0](https://github.com/a-idea-doc/blob/master/LICENSE)
+[Version 2.0](https://github.com/elunez/eladmin-doc/blob/master/LICENSE)
 
 
 >Powered by [vuepress](https://vuepress.vuejs.org/zh/)
