@@ -34,46 +34,45 @@ module.exports = {
             { text: '体验地址', link: 'https://', icon: 'reco-other'},
             // 下拉列表
             {
-                text: 'Github',
+                text: '源码地址',
                 items: [
                     {
-                        text: '前端源码',
-                        link: 'https://github.com/elunez/eladmin-web'
+                        text: 'Github源码',
+                        link: 'https://github.com/TechnicolorTheClown/idea-doc'
                     },
                     {
-                        text: '后端源码',
-                        link: 'https://github.com/elunez/eladmin'
+                        text: 'Gitee源码',
+                        link: 'https://xxxxx'
                     },
                 ],
                 icon: 'reco-github'
-            },
-            {
-                text: 'Gitee',
-                items: [
-                    {
-                        text: '前端源码',
-                        link: 'https://gitee.com/elunez/eladmin-web'
-                    },
-                    {
-                        text: '后端源码',
-                        link: 'https://gitee.com/elunez/eladmin'
-                    }
-                ],
-                icon: 'reco-mayun'
             }
         ],
         sidebar: {
             '/guide/': [
                 {
-                    title: '指南',
+                    title: 'a-idea-doc',
                     collapsable: false,
                     children: [
                         '/guide/',
                         '/guide/kslj',
                         '/guide/ksks',
-                        '/guide/hdsc',
                         '/guide/qdsc',
                         '/guide/xmbs'
+                    ]
+                },
+                {
+                    title: 'JAVA',
+                    collapsable: false,
+                    children: [
+                        '/guide/JAVAREADME'
+                    ]
+                },
+                {
+                    title: 'MySQL',
+                    collapsable: false,
+                    children: [
+                        '/guide/MySQLREADME'
                     ]
                 },
                 {
