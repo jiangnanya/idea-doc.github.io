@@ -9,7 +9,7 @@ module.exports = {
         ['link', { rel: 'icon', href: '/logo/small.png' }]
     ],
     theme: 'reco',
-    title: '一念&成魔',
+    title: 'a-idea-doc',
     description: '在一个崇高的目的支持下，不停地学习，即使慢、也一定会获得成功',
     // 主题配置
     themeConfig: {
@@ -21,7 +21,7 @@ module.exports = {
         subSidebar: 'auto',
         logo: '/logo/small.png',
         author: 'Tang Zheng Feng',
-        // 备案 https://csdnimg.cn/pubfooter/images/gongan.png
+        authorLink: 'https://blog.csdn.net/tangcv',
         record: '浙ICP备XXXXX号',
         recordLink: 'https://beian.miit.gov.cn/#/Integrated/index',
         // 项目开始时间，只填写年份
@@ -29,9 +29,9 @@ module.exports = {
         nav: [
             { text: '项目指南', link: '/guide/', icon: 'reco-document'},
             { text: '常见问题', link: '/problem/', icon: 'reco-faq'},
-            { text: '更新日志', link: '/version/V2.6/', icon: 'reco-date'},
+            { text: '更新日志', link: '/version/V0.1/', icon: 'reco-date'},
             { text: '捐赠支持', link: '/donation/', icon: 'reco-account'},
-            { text: '体验地址', link: 'https://el-admin.xin', icon: 'reco-other'},
+            { text: '体验地址', link: 'https://', icon: 'reco-other'},
             // 下拉列表
             {
                 text: 'Github',
@@ -103,21 +103,19 @@ module.exports = {
                     title: '更新日志',
                     collapsable: false,
                     children: [
-                        'V0.9',
-                        'V0.8',
-                        'V0.7'
+                        'V0.1',
                     ]
                 }
             ]
         },
         // 假如你的文档仓库和项目本身不在一个仓库：
-        docsRepo: 'elunez/eladmin-doc',
+        docsRepo: 'TechnicolorTheClown/idea-doc',
         // 假如文档不是放在仓库的根目录下：
         docsDir: 'docs',
         // 默认是 false, 设置为 true 来启用
         editLinks: true,
         // 默认为 "Edit this page"
-        editLinkText: '联系博主修改此页！'
+        editLinkText: '错误反馈！'
     }
 }
 

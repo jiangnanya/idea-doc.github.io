@@ -15,7 +15,7 @@ yarn docs:build
 ```
 
 ## License
-[Version 2.0](https://github.com/TechnicolorTheClown/idea-doc/LICENSE)
+[Version 2.0](https://github.com/TechnicolorTheClown/idea-doc/blob/master/LICENSE)
 
 
 >Powered by [vuepress](https://vuepress.vuejs.org/zh/)

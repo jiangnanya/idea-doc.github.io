@@ -3,4 +3,4 @@
 
 |   微信  |   支付宝  |
 |--- | --- |
-|  ![5c9c951c61a9a.png](https://img.el-admin.vip/images/2020/06/25/5c9c951c61a9a.png)   |  ![5c9c95355fecb.png](https://img.el-admin.vip/images/2020/06/25/5c9c95355fecb.png)  |
+|  ![wx.png](/logo/wx.png)   |  ![zfb.png](../logo/zfb.png)  |
